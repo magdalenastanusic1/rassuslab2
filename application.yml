@@ -4,7 +4,7 @@ spring:
 server:
   port: 8083
 services:
-  temperature-microservice: http://localhost:8081
-  humidity-microservice: http://localhost:8082
+  temperature-microservice: http://temperature-microservice:8081
+  humidity-microservice: http://humidity-microservice:8082
 aggregator:
   temperature-unit: ${TEMPERATURE_UNIT:K}
