@@ -7,4 +7,4 @@ services:
   temperature-microservice: http://temperature-microservice:8081
   humidity-microservice: http://humidity-microservice:8082
 aggregator:
-  temperature-unit: ${TEMPERATURE_UNIT:K}
+  temperature-unit: ${TEMPERATURE_UNIT:C}
